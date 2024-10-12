@@ -1,0 +1,19 @@
+{
+  "name": "leetrank_socket_service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "ioredis": "^5.4.1",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.0"
+  }
+}
