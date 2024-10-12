@@ -64,6 +64,7 @@ io.on("connection", (socket) => {
 // HTTP route to send a payload to a user by their userId
 app.post('/sendPayload', async (req, res) => {
     console.log("Received payload request:", req.body);
+    
     const { userId, payload } = req.body;
 
     if (!userId || !payload) {
@@ -88,6 +89,6 @@ app.post('/sendPayload', async (req, res) => {
 });
 
 // Start the server
-httpServer.listen(3001, () => {
-    console.log("Server is running on port 3001");
+httpServer.listen(3004, () => {
+    console.log("Server is running on port 3004");
 });
